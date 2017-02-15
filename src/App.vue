@@ -13,10 +13,7 @@
     </nav>
     <div class="container">
       <div class="col-sm-3">
-        <div class="panel panel-default">
-          <div class="panel-heading">已有时长</div>
-          <div class="panel-body">0小时</div>
-        </div>
+        <sidebar></sidebar>
       </div>
       <div class="col-sm-9">
         <router-view></router-view>
@@ -26,12 +23,13 @@
 </template>
 
 <script>
-// import Hello from './components/Hello'
+import Sidebar from './components/Sidebar'
 
 export default {
-  // name: 'app',
-  // components: {
-  // }
+  name: 'app',
+  components: {
+    Sidebar
+  }
 }
 </script>
 
