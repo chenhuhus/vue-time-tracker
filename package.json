@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.0",
     "vue": "^2.1.10",
     "vue-resource": "^1.2.0",
-    "vue-router": "^2.2.1"
+    "vue-router": "^2.2.1",
+    "vuex": "^2.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

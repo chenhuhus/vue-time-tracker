@@ -30,6 +30,7 @@ export default {
   components: {
     Sidebar
   }
+  // components: { 'sidebar': Sidebar }
 }
 </script>
 
