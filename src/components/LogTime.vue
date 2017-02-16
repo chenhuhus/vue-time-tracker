@@ -6,6 +6,7 @@
 				<input
 					type="date"
 					class="form-control"
+					v-model="date"
 					placeholder="Date"
 				/>
 			</div>
@@ -13,6 +14,7 @@
 				<label>时间</label>
 				<input
 					type="number"
+					v-model="totalTime"
 					class="form-control"
 					placeholder="Hours"
 				/>
@@ -24,23 +26,31 @@
 				<input
 					type="text"
 					class="form-control"
+					v-model="comment"
 					placeholder="Comment"
 				/>
 			</div>
 		</div>
 		<button class="btn btn-primary">保存</button>
 		<router-link to="/time-entries" class="btn btn-danger">取消</router-link>
+
+		<hr>
 	</div>
 
 </template>
 
 <script>
 export default {
-  // computed: {
-    // time() {
-    //   return this.$store.state.totalTime
-    // }
-  // }
+	name: 'LogTime',
+	data() {
+		return {
+			date: '',
+			totalTime: '',
+			comment: ''
+		}
+	},
+	methods: {
+	}
 }
 </script>
 

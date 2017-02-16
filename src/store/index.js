@@ -11,7 +11,7 @@ const state = {
 		avatar: 'https://sfault-avatar.b0.upaiyun.com/147/223/147223148-573297d0913c5_huge256',
 		date : '2017-02-16',
 		totalTime: '3',
-		comment: 'learning cost 2h'
+		comment: 'learning cost 3h'
 	}]
 }
 
