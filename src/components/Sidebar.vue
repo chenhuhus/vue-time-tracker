@@ -14,16 +14,16 @@
 
 <script>
 export default {
+  // computed: {
+  //   time: function() {
+  //     return this.$store.state.totalTime
+  //   }
+  // }
   computed: {
-    time: function() {
+    time() {
       return this.$store.state.totalTime
     }
   }
-  // computed: {
-    // time() {
-    //   return this.$store.state.totalTime
-    // }
-  // }
 }
 </script>
 
