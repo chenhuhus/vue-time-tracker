@@ -20,7 +20,7 @@
             <img v-bind:src="plan.avatar" class="avatar img-responsive img-circle">
             <p class="text-center"> {{ plan.name }} </p>
           </div>
-          <div class="col-sm-2 text-center time-block">
+          <div class="col-sm-3 text-center time-block">
             <h3 class="total-time">
               <i class="glyphicon glyphicon-time"></i>
               {{ plan.totalTime }}
@@ -30,11 +30,11 @@
               {{ plan.date }}
             </p>
           </div>
-          <div class="col-sm-7 comment-section">
+          <div class="col-sm-6 comment-section">
             <p>{{ plan.comment }}</p>
           </div>
           <div class="col-sm-1">
-            <button class="btn btn-danger">X</button>
+            <button class="btn btn-danger" v-on:click="deletePlan(index)">X</button>
           </div>
         </div>
       </li>
@@ -49,6 +49,14 @@ export default {
   computed: {
     plans() {
       return this.$store.state.list
+    }
+  },
+  methods: {
+    deletePlan(idx) {
+      // 减去总时间
+      this.$store.dispatch('decTotalTime', this.plans[idx].totalTime)
+      // 删除该计划
+      this.$store.dispatch('deletePlan', idx)
     }
   }
 }
