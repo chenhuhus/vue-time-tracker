@@ -53,7 +53,7 @@ export default {
 		save() {
 			const plan = {
 				name: 'chenhhs',
-				avatar: 'https://sfault-avatar.b0.upaiyun.com/147/223/147223148-573297d0913c5_huge256',
+				avatar: 'http://upload.jianshu.io/users/upload_avatars/1392599/5b92f79692ee.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240',
 				date: this.date,
 				totalTime: this.totalTime,
 				comment: this.comment

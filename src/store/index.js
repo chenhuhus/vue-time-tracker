@@ -18,7 +18,7 @@ const state = {
 	list: [
 		{
 			name: 'chenhhs',
-			avatar: 'https://sfault-avatar.b0.upaiyun.com/147/223/147223148-573297d0913c5_huge256',
+			avatar: 'http://upload.jianshu.io/users/upload_avatars/1392599/5b92f79692ee.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240',
 			date : '2017-01-01',
 			totalTime: '3',
 			comment: 'do something cost 3h'

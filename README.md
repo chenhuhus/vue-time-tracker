@@ -1,6 +1,11 @@
 # vue-time-tracker
 
-> A Vue.js project
+> 对Vue.js的学习 对组件之间通信、路由、webpack等有了初步认识
+
+<div>部分截图</div>
+<div><img src="pic/pic1.png"></div>
+<div><img src="pic/pic2.png"></div>
+<div><img src="pic/pic3.png"></div>
 
 ## Build Setup
 

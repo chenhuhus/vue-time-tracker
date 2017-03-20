@@ -18,13 +18,7 @@ import './assets/style/base.scss'
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
-const Homea = { template: '<div>default</div>' }
-
 const routes = [
-	{
-		path: '/',
-		component: Homea
-	},
 	{
 		path: '/home',
 		component: Home
@@ -38,10 +32,6 @@ const routes = [
 		}]
 	}
 
-	// {
-	// 	path: '*',
-	// 	component: NotFound
-	// }
 ]
 
 const router = new VueRouter({
